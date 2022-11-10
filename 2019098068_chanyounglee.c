@@ -18,14 +18,6 @@ int finish_line, color;
 int initial, enc_degree;
 float dist, t;
 
-int convert(float dist);
-void go(int s);
-void sound(int n);
-void point_turn(int mode, int v);
-void left_90();
-void right_90();
-void black_distance(int c);
-
 int convert(float dist)
 {
 	return (int)(360.0 * dist / 17.58);
